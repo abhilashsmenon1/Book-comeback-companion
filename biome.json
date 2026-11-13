@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "includes": ["app/**", "lib/**", "scripts/**", "public/sw.js", "tests/**", "*.ts", "*.mjs", "!next-env.d.ts"]
+  },
+  "linter": {
+    "rules": { "preset": "recommended" }
+  }
+}
